@@ -30,14 +30,14 @@ Certifications: ${profile.certifications?.join(', ') || ''}
 JOB DESCRIPTION:
 ${jobDescription}
 
-Generate the resume in EXACTLY this format — do not add any extra labels or fields:
+Generate the resume in EXACTLY this format:
 
 ${profile.name}
 ${profile.phone} | ${profile.email} | ${profile.city}
 GitHub: ${profile.github} | LinkedIn: ${profile.linkedin}
 
 PROFESSIONAL SUMMARY
-[2-3 lines tailored summary here]
+Write a 2-3 line summary in normal sentence case. Not all caps.
 
 TECHNICAL SKILLS
 - Languages: [list]
@@ -58,6 +58,13 @@ PROJECTS
 CERTIFICATIONS
 - [cert 1]
 - [cert 2]
+
+IMPORTANT RULES:
+- Summary must be in normal sentence case NOT ALL CAPS
+- Project title must be LEFT aligned not centered
+- No extra labels or fields
+- Follow the format exactly
+
 
 Then generate:
 
